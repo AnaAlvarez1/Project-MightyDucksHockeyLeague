@@ -1,0 +1,340 @@
+*:not(ol,ul,li,dd,th){
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    border: 0;
+    width: 100%;
+}
+nav.principal{
+    height: 50%;
+    background-color: rgb(27, 24, 24);
+    text-align: center;
+    padding: 20px;
+
+}
+a.menu{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration:double ;
+    font-family: 'Oleo Script', cursive;
+    color: rgb(241, 215, 68);
+    letter-spacing: 2px;
+    font-size: 17px;
+
+}
+img.logo{
+    width: 15%;
+    background-color:rgb(27, 24, 24) ;
+    position: absolute;
+    left: 42.3%;
+}
+img.banner1{
+    width: 100%;
+    height: 700px;
+}
+h1{
+    position: absolute;
+    bottom: 22%;
+    left: 10% ;
+    right: 10%;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight:900;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border: 3px solid rgb(255, 230, 0);
+    color: rgb(241, 215, 68);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    position: sticky;
+    top: 0px;
+    
+}
+h4{
+    font-family: 'Righteous', cursive;
+}
+img.imagenhome{
+    width: 400px;
+}
+div.agenda{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 50px;
+}
+section{
+    margin: 50px;
+
+}
+img.imagenhome1{
+    width: 250px;
+    margin: 50px;
+}
+img.imagenhome2{
+    width: 310px;
+    margin: 50px;
+}
+img.imagenhome3{
+    width: 250px;
+    margin: 50px;
+}
+section.rules{
+    margin: 25px;
+    margin-bottom: 100px;
+}
+section.fech{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    text-align: center;
+    color:rgb(241, 215, 68) ;;
+    background-color: rgb(27, 24, 24);
+    padding: 40px;
+    border-bottom: 50px solid red;
+}
+a{
+    color: beige;
+}
+div.contacto{
+    text-align: center;
+    margin: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+a.cont1{
+    color: rgb(253, 253, 253);
+}
+a.cont2{
+    color: red;
+}
+ul{
+    list-style-position: inside;
+}
+p.sang{
+    text-indent: 30px;
+}
+li.orden{
+    list-style-type: lower-latin;
+}
+ul{
+    padding: 0%;
+    margin: 0%;
+}
+li.one{
+    list-style-type: circle;
+}
+div.cultura{
+    margin:50px;
+}
+img.cultura{
+    width: 70%;
+    box-shadow: 5px 5px 10px rgb(45, 51, 56);
+
+}
+figure.cultura{
+    display: flex;
+    justify-content: center;
+}
+img.rules{
+    width: 90%;
+    margin-top: 80px;
+    box-shadow: 5px 5px 10px rgb(45, 51, 56);
+}
+figure.rules{
+    display: flex;
+    justify-content: center;
+}
+td{
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(14, 175, 167);
+    border:2px solid rgb(24, 83, 107);
+}
+table{
+    box-shadow: 5px 5px 9px rgb(139, 167, 164);
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    left: 3%;
+    right: 3%;
+    
+}
+thead{
+    background-color:darkcyan ;
+    border:2px solid rgb(24, 83, 107);
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td.foot{
+    background-color: rgb(104, 209, 209);
+}
+h3.game{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+div.game{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+div.gameinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+p.contacto2{
+    display: inline-block;
+    margin-left: 20px;
+}
+img.gal4{
+    width: 80%;
+    height: 40%;
+    box-shadow: 5px 5px 10px rgb(23, 51, 75);
+    border-radius: 25px 25px 25px 25px;
+}
+img.gal5{
+    width: 80%;
+    height: 90%;
+    box-shadow: 5px 5px 10px rgb(23, 51, 75);
+    border-radius: 25px 25px 25px 25px;
+}
+div.galeria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+div.galeria2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+img.gal1{
+    width: 100%;
+    height: 50%;
+}
+img.gal2{
+    width: 100%;
+    height: 35%;
+    
+}
+img.gal3{
+    width: 100%;
+    height: 50%;
+}
+div.cont{
+    text-align: center;
+}
+caption{
+    font-weight:900;
+    text-transform: uppercase;
+    margin: 10px;
+}
+p.contacto{
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 8px 8px 10px rgb(71, 67, 67);
+    width: 300px;
+    margin-top: 25px;
+}
+img.footer1{
+    width: 100px;
+    border: 1px solid red;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+div.contenidonav{
+    display: flex;
+    flex-direction: row;
+}
+div.game{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+div.cont{
+    margin-top: 40px;
+}
+div.container{
+    justify-content: center;
+}
+a.footer{
+    color:rgb(241, 215, 68) ;
+}
+strong > a{
+    color: rgb(255, 0, 0) ;
+}
+section.formulario{
+    background-image: url("../assets/imagenes/formularioo.jpg");
+    box-shadow: 5px 5px 10px rgb(23, 51, 75);
+    border-radius: 25px 25px 25px 25px;
+    border: 1px rgb(23, 51, 75);
+    padding: 5px;
+    color: azure;
+    
+}
+div.formulario{
+    margin: 5%;
+}
+h3.formulario{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px;
+}
+figure.galeria2{
+    margin: 5%;
+
+}
+
+@media only screen and (min-width: 320) and  (max-width: 767x){
+    div.cultura{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    nav.principal{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        background-color: rgb(27, 24, 24);
+        text-align: center;
+        padding: 20px;
+    }
+
+
+}
+
